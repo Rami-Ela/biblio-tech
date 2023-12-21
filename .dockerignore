@@ -1,0 +1,35 @@
+# dependencies
+node_modules
+.yarn/*
+!.yarn/plugins
+.git
+
+# build output
+.next
+
+# typescript
+next-env.d.ts
+
+# env file
+.env.*
+
+# misc
+.DS_Store
+*.pem
+Dockerfile
+.dockerignore
+*.log
+README.md
+.vscode
+.husky
+.gitignore
+.eslint*
+.prettier*
+.ignore
+docker-compose*
+
+# snyk
+.dccache
+
+# testing
+app-test-results.xml
